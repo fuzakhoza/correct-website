@@ -6,6 +6,6 @@
 
 }
 @keyframes moveright {
-    from{ transform: translateZ(360deg);}
-    to{ transform: translateZ(0);}
+    from{ transform: rotateZ(360deg);}
+    to{ transform: rotateZ(0);}
 }
