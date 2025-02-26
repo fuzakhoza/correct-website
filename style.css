@@ -1,0 +1,11 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: moveright 1s ease 0s infinite;
+
+}
+@keyframes moveright {
+    from{ transform: translateZ(360deg);}
+    to{ transform: translateZ(0);}
+}
